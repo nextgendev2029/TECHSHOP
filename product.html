@@ -47,6 +47,53 @@
       color: black;
       border-radius: 4px;
     }
+
+    /* Main content starts here */
+    .products-heading {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 40px;
+      color: #333;
+    }
+
+    .underline {
+      background-color: #625dff;
+      width: 100px;
+      height: 8px;
+      margin-left: 47%;
+      margin-right: 46%;
+      border-radius: 4px;
+        margin-top: 10px;
+
+    }
+    .product-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 40px;
+    }
+
+    .product-item {
+        background-color: #84e9ff;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        width: 200px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .product-item{
+        box-shadow: 10px 10px 15px rgba(0, 55, 6, 0.985);
+    }
+
+    .product-item:hover{
+        background-color: greenyellow;
+    }
+
+    .product-item h2:hover {
+        color: rgb(0, 70, 39);
+    }
   </style>
 </head>
 <body>
@@ -62,6 +109,70 @@
       </div>
     </nav>
   </header>
+
+  <main>
+    <h1 class="products-heading">Our Products</h1>
+    <div class="underline"></div>
+
+    <div class="product-list">
+
+        <div class="product-item">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxJNwzNznkhFCntDJiiL7BGBaXlU2fh5U6Q7s14kLOwP1QwRYATeS2NTHFNZiKlay6y4DuGCmhLn5xVCkunoUmNZUq0WWyCZHNORtpNWeks9mh4nhPNVuMlQ" style="width: 200px;" alt="Laptop">
+            <h2>Laptop</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $100</p>
+        </div>
+
+        <div class="product-item">
+            <img src="" alt="">
+            <h2>Smartphone</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $1000</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Tablet</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $200</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Smartphone</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $300</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Headphones</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $900000.00</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Power bank</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $10000.00</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Keyboard</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $100000</p>
+        </div>
+
+        <div class="product-item">
+            <h2>Mouse</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $10.00</p>
+        </div>
+
+        <div class="product-item">
+            <h2>SSD</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $10.00</p>
+        </div>
+
+  </main>
 
   
 
