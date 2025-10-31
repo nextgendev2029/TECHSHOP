@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Horizontal Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #001aff;
+      display: flex;
+      justify-content: space-between; /* left and right items separated */
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .logo {
+      color: rgb(255, 255, 255);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .logo:hover {
+      color: rgb(240, 255, 130);
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px; /* space between links */
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 16px;
+    }
+
+    .nav-links a:hover {
+      background-color: #625dff;
+      border: 1px solid rgb(255, 255, 255);
+      color: black;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Tech Shop</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#cart">Cart</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  
+
+</body>
+</html>
+
+
